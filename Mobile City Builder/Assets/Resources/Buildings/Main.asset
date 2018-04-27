@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0afe9605a65f1e438378d485b592481, type: 3}
+  m_Name: Main
+  m_EditorClassIdentifier: 
+  _name: Town Center
+  _numberOfUpgrades: 10
+  _prefab: {fileID: 1825144093783504, guid: 3fa609f54bce991459779f3c44a19d03, type: 2}
+  _cashCapacity: 100
