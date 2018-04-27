@@ -33,7 +33,9 @@ public class GameController : MonoBehaviour {
 		// Check if GameData has been loaded.
 		if (!isLoaded) {
 			eventController.CallLoadGameData ();
-		} 
+		}
+
+        Screen.orientation = ScreenOrientation.AutoRotation;
 	}
 		
 	// Subscribes methods to the right event and sets variables.
